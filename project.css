@@ -1,0 +1,61 @@
+@font-face {
+  font-family: Lexend;
+  src: url(Lexend.ttf);
+}
+
+@font-face {
+  font-family: Philosopher-Bold;
+  src: url(Philosopher-Bold.ttf);
+}
+
+body {
+  background-image: url(https://w.wallhaven.cc/full/5g/wallhaven-5gp8l8.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  cursor: url(mec468.cur), auto;
+}
+
+.karusel {
+  border-top-style: solid;
+  border-right-style: dashed;
+  border-bottom-style: solid;
+  border-left-style: dashed;
+  border-top-color: #e3003f;
+  border-right-color: #00c8fe;
+  border-bottom-color: #e3003f;
+  border-left-color: #00c8fe;
+  border-width: 6px;
+  border-radius: 3px;
+  opacity: .75;
+}
+
+.karusel:hover {
+  opacity: 1;
+}
+
+.strokeme {
+  color: #121212;
+  background-color: #12121200;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+::-webkit-scrollbar   {
+height: .25rem;
+width: .5rem;
+}
+
+::-webkit-scrollbar-track   {
+background: rgba(255, 255, 255, 0);
+border-radius: 100vw;
+margin-block: .5rem;
+}
+
+::-webkit-scrollbar-thumb   {
+background: linear-gradient(#00183e, #00a6ec, #e2003f, #00a6ec, #00183e);
+border: .15rem solid #00183e;
+border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover   {
+background: linear-gradient(#00183e, #00a6ec, #e2003f, #00a6ec, #00183e);
+}
