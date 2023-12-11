@@ -66,6 +66,7 @@ body {
 
 .center {
   height: 795px;
+  overflow: auto;
 }
 
 .title {
